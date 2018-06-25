@@ -2,56 +2,362 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="css/style.css" <meta charset="UTF-8">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/small_screen.css">
+    <meta charset="UTF-8" />
+    
+    <title>Landing</title>
 </head>
 
 <body>
-    <div class="wrap">
-        <nav class="navbar">
-            <img src="images/logo_navbar_u70.png" alt="axit_logo" height="27" width="79">
 
+    <nav class="navbar">
+        <div class="wrap">
+            <a href="#about">
+                <img src="images/logo_navbar_u70.png" alt="axit_logo" height="27" width="79">
+            </a>
             <ul class="menu">
-                <li class="menu-item"><a href="#">Features</a></li>
-                <li class="menu-item"><a href="#">About</a></li>
-                <li class="menu-item"><a href="#">Pricing</a></li>
-                <li class="menu-item"><a href="#">Reviews</a></li>
-                <li class="menu-item"><a href="#">Contact</a></li>
+                <li class="menu-item"><a href="#features">Features</a></li>
+                <li class="menu-item"><a href="#about">About</a></li>
+                <li class="menu-item"><a href="#pricing">Pricing</a></li>
+                <li class="menu-item"><a href="#reviews">Reviews</a></li>
+                <li class="menu-item"><a href="#contact">Contact</a></li>
             </ul>
+        </div>
 
-        </nav>
-        <header>
+    </nav>
 
-        </header>
-        <section class="brandbar">
+    <header id="about">
+        <div class="wrap">
+            <section class="about-us">
+                <img src="images/logo_navbar_u70.png" alt="axit_logo" width="175" height="60">
+                <h1>MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+                <div class="divider"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at consectetur neque. Curabitur vel sem leo. Fusce et turpis lacus.</p>
+                <input type="submit" value="Download" class="button-download_header">
+            </section>
+            <form class="form-registration">
+                <h2>Try Your <span>FREE</span> Trial Today</h2>
+                <input type="text" placeholder="Name" name="name" maxlength="30">
+                <input type="email" placeholder="Email" name="email" maxlength="30">
+                <input type="password" placeholder="Password" name="password">
+                <div class="around-button">
+                    <input type="submit" value="Get Started" class="button-get-started">
+                </div>
+            </form>
+        </div>
+    </header>
 
-        </section>
-        <section class="feature1">
+    <section class="brandbar">
+        <div class="wrap">
+            <div class="social-networks">
+                <h2>Social Media</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Aenean at consectetur neque.</p>
+            </div>
+            <div class="social-icons">
+                <div class="icon facebook">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="images/facebook.png" alt="facebook_icon">
+                    </a>
+                </div>
+                <div class="icon twitter">
+                    <a href="https://twitter.com/" target="_blank">
+                        <img src="images/twitter.png" alt="twitter_icon">
+                    </a>
+                </div>
+                <div class="icon google">
+                    <a href="https://plus.google.com" target="_blank">
+                        <img src="images/google+.png" alt="google_icon">
+                    </a>
+                </div>
+                <div class="icon pinerest">
+                    <a href="https://ru.pinterest.com/" target="_blank">
+                        <img src="images/pinterest.png" alt="pinterest_icon">
+                    </a>
+                </div>
+                <div class="icon instagram">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="images/instagram.png" alt="instagram_icon">
+                    </a>
+                </div>
+                <div class="icon hz-shto">
+                    <a href="#" target="_blank">
+                        <img src="images/hz-shto.png" alt="_icon">
+                    </a>
+                </div>
+                <div class="icon rss">
+                    <a href="#" target="_blank">
+                        <img src="images/rss.png" alt="rss_icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        </section>
-        <section class="feature2">
+    <section class="feature1" id="features">
+        <div class="wrap">
+            <div class="tabs">
+                <div class="tab active-tab">
+                    <p>TAB 1</p>
+                </div>
+                <div class="tab inactive-tab">
+                    <p>TAB 2</p>
+                </div>
+                <div class="tab inactive-tab">
+                    <p>TAB 3</p>
+                </div>
+            </div>
+            <article class="tab-description">
+                <h2>Tabs with soft transitioning effect</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed odio at lorem faucibus tristique. Etiam elit nulla, malesuada sed tellus in, posuere rhoncus massa. Pellentesque vel rutrum lacus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed odio at lorem faucibus tristique.</p>
+                <input type="button" value="Download" class="button-download_feature1">
+            </article>
+            <img src="images/city.png" alt="city">
+        </div>
+    </section>
 
-        </section>
-        <section class="feature3">
+    <section class="feature2">
+        <div class="wrap">
+            <img src="images/feature.png" alt="feature" class="feature_image">
+            <article class="feature_description">
+                <h2>Sub list section</h2>
+                <div class="divider divider-feature"></div>
+                <p>Etiam elit nulla, malesuada sed tellus in, posuere rhoncus massa. Pellentesque vel rutrum lacus. Nullam ut eros quis quam egestas ornare.</p>
+                <div class="item_feature">
+                    <img class="symbol_item" src="images/cloud_up.png">
+                    <div class="item_description">
+                        <h3>Title</h3>
+                        <p>Pellentesque vel rutrum lacus. Nullam ut eros quis quam egestas ornare.</p>
+                    </div>
+                </div>
+                <div class="item_feature">
+                    <img class="symbol_item" src="images/cloud_down.png">
+                    <div class="item_description">
+                        <h3>Title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed odio at lorem faucibus tristique. Etiam elit nulla, malesuada sed tellus in.</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
 
-        </section>
-        <section class="ourprocess">
+    <section class="feature3">
+        <div class="wrap">
+            <article class="feature_description">
+                <h2>Standart picture section</h2>
+                <div class="divider divider-feature"></div>
+                <p>Etiam elit nulla, malesuada sed tellus in, posuere rhoncus massa. Pellentesque vel rutrum lacus. Nullam ut eros quis quam egestas ornare. Etiam elit nulla, malesuada sed tellus in, posuere rhoncus massa. Pellentesque vel rutrum lacus.</p>
+                <p>Etiam elit nulla, malesuada sed tellus in, posuere rhoncus massa. Pellentesque vel rutrum lacus. Nullam ut eros quis quam egestas ornare.</p>
+            </article>
+            <img src="images/feature.png" alt="feature" class="feature_image">
+        </div>
+    </section>
 
-        </section>
-        <section class="pricing">
+    <section class="awesome">
+        <div class="wrap">
+            <h1>WHY THIS IS AWESOME</h1>
+            <div class="divider divider-feature"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <article class="awesome-thing">
+                <img src="images/lamp.png" class="awesome-thing_icon lamp">
+                <h2>Thoughtful Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed odio at lorem faucibus tristique. Etiam elit nulla, malesuada sed tellus in.</p>
+            </article>
+            <article class="awesome-thing">
+                <img src="images/keyboard.png" class="awesome-thing_icon lamp">
+                <h2>Well Crafted</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed odio at lorem faucibus tristique. Etiam elit nulla, malesuada sed tellus in.</p>
+            </article>
+            <article class="awesome-thing">
+                <img src="images/lighting.png" class="awesome-thing_icon lamp">
+                <h2>Easy to Costumize</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed odio at lorem faucibus tristique. Etiam elit nulla, malesuada sed tellus in.</p>
+            </article>
+        </div>
+    </section>
 
-        </section>
-        <section class="testimonials">
+    <section class="pricing" id="pricing">
+        <div class="wrap">
+            <h1>PRICING OPTIONS</h1>
+            <div class="divider divider-feature"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <article class="pricing_option  first-pricing_option">
+                <div class="pricing_option_name">
+                    <h3>Basic</h3>
+                </div>
+                <div class="price-description">
+                    <p class="price">$<span class="price_number">0</span></p>
+                    <p class="price_text"><em>Free for Life</em></p>
+                </div>
+                <ul>
+                    <li class="characteristic">1 GB OF SPACE</li>
+                    <li class="characteristic">10 GB OF BANDWIDTH</li>
+                    <li class="characteristic">3 WEBSITES</li>
+                    <li class="characteristic">BASIC CUSTOMIZATION</li>
+                    <li class="characteristic">WORDPRESS INTEGRATION</li>
+                    <li class="characteristic">EMAIL SUPPROT</li>
+                </ul>
+            </article>
+            <article class="pricing_option">
+                <div class="pricing_option_name">
+                    <h3>Professional</h3>
+                </div>
+                <div class="price-description">
+                    <p class="price">$<span class="price_number">19</span></p>
+                    <p class="price_text"><em>Monthly Payment</em></p>
+                </div>
+                <div class="most-popular">
+                    <p>OUR MOST POPULAR</p>
+                </div>
+                <ul>
+                    <li class="characteristic">5 GB OF SPACE</li>
+                    <li class="characteristic">50 GB OF BANDWIDTH</li>
+                    <li class="characteristic">12 WEBSITES</li>
+                    <li class="characteristic">ADVANCED CUSTOMIZATION</li>
+                    <li class="characteristic">WORDPRESS INTEGRATION</li>
+                    <li class="characteristic">EMAIL SUPPROT</li>
+                </ul>
+            </article>
+            <article class="pricing_option">
+                <div class="pricing_option_name">
+                    <h3>Enterprice</h3>
+                </div>
+                <div class="price-description">
+                    <p class="price">$<span class="price_number">70</span></p>
+                    <p class="price_text"><em>Monthly Payment</em></p>
+                </div>
+                <ul>
+                    <li class="characteristic">UNLIMITED SPACE</li>
+                    <li class="characteristic">UNLIMITED BANDWIDTH</li>
+                    <li class="characteristic">100 WEBSITES</li>
+                    <li class="characteristic">ADVANCED CUSTOMIZATION</li>
+                    <li class="characteristic">WORDPRESS INTEGRATION</li>
+                    <li class="characteristic">24/7 CUSTOMER SUPPROT</li>
+                </ul>
+            </article>
+        </div>
+    </section>
 
-        </section>
-        <section class="custumsection">
+    <section class="reviews" id="reviews">
+        <div class="wrap">
+            <h1>REVIEWS</h1>
+            <div class="divider divider-feature"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <article class="review first-review">
+                <div class="review_text">
+                    <p>Etiam elit nulla, malesuada sed tellus in, posuere rhoncus massa. Pellentesque vel rutrum lacus. Nullam ut eros quis quam egestas ornare.</p>
+                </div>
+                <div class="triangle"></div>
+                <div class="person">
+                    <div class="portrait"></div>
+                    <div class="about-person">
+                        <h2>Jeremy H.</h2>
+                        <p>Manager</p>
+                    </div>
+                </div>
+            </article>
+            <article class="review">
+                <div class="review_text">
+                    <p>Etiam elit nulla, malesuada sed tellus in, posuere rhoncus massa. Pellentesque vel rutrum lacus. Nullam ut eros quis quam egestas ornare.</p>
+                </div>
+                <div class="triangle"></div>
+                <div class="person">
+                    <div class="portrait"></div>
+                    <div class="about-person">
+                        <h2>John S.</h2>
+                        <p>Freelancer</p>
+                    </div>
+                </div>
+            </article>
+            <article class="review">
+                <div class="review_text">
+                    <p>Etiam elit nulla, malesuada sed tellus in, posuere rhoncus massa. Pellentesque vel rutrum lacus. Nullam ut eros quis quam egestas ornare.</p>
+                </div>
+                <div class="triangle"></div>
+                <div class="person">
+                    <div class="portrait"></div>
+                    <div class="about-person">
+                        <h2>Susan W.</h2>
+                        <p>Photographer</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
 
-        </section>
-        <section class="contactus">
+    <section class="custumsection">
+        <h1>STYLISH AXURE DESIGN</h1>
+        <div class="divider"></div>
+        <p>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!</p>
+        <input type="button" value="Download" class="button-download_header">
+    </section>
 
-        </section>
-        <footer></footer>
-    </div>
+    <section class="contacts" id="contact">
+        <div class="wrap">
+            <h1>CONTACT US</h1>
+            <div class="divider divider-feature"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <form class="form-with-message">
+                <fieldset>
+                    <input type="text" placeholder="Name" name="name">
+                    <input type="email" placeholder="Email" name="email">
+                    <input type="password" placeholder="Password" name="password">
+                </fieldset>
+                <textarea placeholder="Message"></textarea>
+                <input type="submit" value="Send Message" class="button-download_feature1">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <div class="social-icons">
+                <div class="icon facebook">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="images/facebook.png" alt="facebook_icon">
+                    </a>
+                </div>
+                <div class="icon twitter">
+                    <a href="https://twitter.com/" target="_blank">
+                        <img src="images/twitter.png" alt="twitter_icon">
+                    </a>
+                </div>
+                <div class="icon google">
+                    <a href="https://plus.google.com" target="_blank">
+                        <img src="images/google+.png" alt="google_icon">
+                    </a>
+                </div>
+                <div class="icon pinerest">
+                    <a href="https://ru.pinterest.com/" target="_blank">
+                        <img src="images/pinterest.png" alt="pinterest_icon">
+                    </a>
+                </div>
+                <div class="icon instagram">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="images/instagram.png" alt="instagram_icon">
+                    </a>
+                </div>
+                <div class="icon hz-shto">
+                    <a href="#" target="_blank">
+                        <img src="images/hz-shto.png" alt="_icon">
+                    </a>
+                </div>
+                <div class="icon rss">
+                    <a href="#" target="_blank">
+                        <img src="images/rss.png" alt="rss_icon">
+                    </a>
+                </div>
+            </div>
+            <p>&copy;2015 Axure Themes</p>
+        </div>
+    </footer>
+    
+    <script>
+        var scrollWidth = document.body.offsetWidth - document.body.clientWidth - 2 * document.body.clientLeft;
+        alert(scrollWidth);
+    </script>
 </body>
 
 </html>
